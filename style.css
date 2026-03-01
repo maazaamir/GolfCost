@@ -109,6 +109,13 @@ video {
   object-fit: cover;
   z-index: -1;
 }
+video {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  z-index: -1;
+  position: fixed;
+}
 #page1 h1::before {
   content: "EAT. DRINK. PLAY.";
   position: absolute;
