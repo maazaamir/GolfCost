@@ -93,11 +93,21 @@ video {
   flex-direction: column;
   text-align: center;
   z-index: 10;
+  overflow: hidden;
 }
 #page1 h1 {
   font-size: 7.5vw;
   font-weight: 900;
   position: relative;
+}
+#bg-video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  z-index: -1;
 }
 #page1 h1::before {
   content: "EAT. DRINK. PLAY.";
